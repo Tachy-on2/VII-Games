@@ -66,6 +66,7 @@ ul {
 body {
     text-align: center;
     background-color: white;
+    width: 100%;
 }
 
 h1,
@@ -87,6 +88,7 @@ h6 {
 .welcome-board {
     height: 500px;
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
 
      .morebtn{
@@ -181,6 +183,7 @@ h6 {
     img {
         height: 63px;
         width: 105px;
+        margin-left: 10px;
         border-radius: 5px;
         box-shadow: 6px 6px 20px black, 6px 6px 20px black inset;
         opacity: 0.7;
@@ -336,6 +339,7 @@ h6 {
 .nintendo{
     margin-bottom: 150px;
     height: 550px;
+    width: 100%;
 
     img{
         height: 550px;
@@ -441,6 +445,7 @@ h6 {
 .warzone {
     display: flex;
     height: 600px;
+    width: 100%;
     justify-content: space-evenly;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 300px;
@@ -490,7 +495,7 @@ h6 {
     padding: 40px;
 
     .grid{
-        width: 85%;
+        width: 95%;
         position: relative;
         top: 10%;
         left: 10%;
