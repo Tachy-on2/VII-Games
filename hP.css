@@ -1,0 +1,679 @@
+/************************ NAVBAR ************************/
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: -20px;
+    height: 100px;
+    background-color: white;
+    z-index: 10;
+
+
+    a {
+        color: black;
+        text-decoration: none;
+        padding: 2em;
+        font-weight: 500;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        font-size: small;
+    }
+}
+
+.form-control {
+    width: auto;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.viiLogo {
+    height: 70px;
+    width: 60px;
+    margin-left: 40px;
+}
+
+.psLogo {
+    height: 20px;
+    width: 20px;
+}
+
+.nintendoLogo {
+    height: 20px;
+    width: 30px;
+}
+
+.xboxLogo {
+    height: 20px;
+    width: 20px;
+}
+
+.pcLogo {
+    height: 20px;
+    width: 20px;
+}
+
+/********************************** BODY **********************************/
+body {
+    text-align: center;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "poppins" Arial, Helvetica, sans-serif;
+}
+
+
+
+.intro {
+    font-weight: 600;
+}
+
+
+.welcome-board {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+     .morebtn{
+        padding: 5px;
+        border-radius: 13px;
+        background-color: white;
+        color: black;
+        margin-right: 10px;
+        border: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+    }
+
+    .morebtn:hover{
+        padding: 2px;
+        border: 2px rgb(61, 61, 61) solid;
+        scale: 1.1;
+        transition: 150ms ease;
+    }
+
+    .collectionbtn{
+        padding: 5px;
+        border-radius: 13px;
+        background-color: orangered;
+        color: white;
+        border: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+        font-weight: 500;
+    }
+
+    .collectionbtn:hover{
+        padding: 2px;
+        border: 2px rgb(61, 61, 61) solid;
+        scale: 1.1;
+        transition: 150ms ease;
+    }
+}
+
+.head-div {
+    background: linear-gradient(to right, white, black);
+}
+
+
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    margin-top: 100px;
+    width: 300px;
+    animation: appear 2s linear;
+    border-radius: 20px;
+    border-color: #e3f2fd;
+
+    h4 {
+        text-align: left;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    p{
+        text-align: left;
+    }
+}
+
+.PS5-img {
+    font-family: 'Courier New', Courier, monospace;
+    height: 400px;
+    margin-top: 0px;
+    width: 600px;
+    animation: appear 2s;
+}
+
+.gamepad-1 {
+    height: 200px;
+    width: 200px;
+    rotate: 120deg;
+    float: left;
+    margin-top: -20px;
+    margin-left: -40px;
+    display: none;
+}
+
+.div1 {
+    width: 50%;
+    justify-content: center;
+    column-gap: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+    margin-top: 10px;
+    margin-left: 300px;
+    align-self: center;
+
+    img {
+        height: 63px;
+        width: 105px;
+        border-radius: 5px;
+        box-shadow: 6px 6px 20px black, 6px 6px 20px black inset;
+        opacity: 0.7;
+    }
+}
+
+.game:hover {
+    transform: translateY(-5px);
+    scale: 1.2;
+    transition: 250ms ease;
+    opacity: 1;
+}
+
+.ps5-slim{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    animation: appear 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+
+    h1{
+        width: 350px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .box{
+        padding-top: 30px;
+        padding-left: 70px;
+    }
+
+    h4{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        color: aqua;
+    }
+
+    p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: left;
+        width: 300px;
+    }
+}
+
+.xbox{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 150px;
+    animation: appear 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+
+    img{
+        animation: xbox-slide linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+
+    h1{
+        width: 350px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .xbox-box{
+        padding-top: 30px;
+        padding-left: 150px;
+    }
+
+    h4{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        color: aqua;
+    }
+
+    p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: left;
+        width: 300px;
+    }
+}
+
+.xbox-controller{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 150px;
+    background-color: #bfe0f8;
+
+
+    .left{
+        float: left;
+        margin-top: 80px;
+        margin-left: 70px;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+
+    .right{
+        float: right;
+        margin-top: -100px;
+        margin-right: 70px;
+        animation: appear 2s linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+
+    h1{
+        width: 350px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .xbox-box{
+        padding-top: 150px;
+        padding-left: 500px;
+        animation: appear 2s linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+
+    }
+
+    h4{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        color: #2e80be;
+    }
+
+    p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: left;
+        width: 300px;
+    }
+}
+
+.nintendo{
+    margin-bottom: 150px;
+    height: 550px;
+
+    img{
+        height: 550px;
+    }
+}
+
+.spinner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 7px;
+    animation: spin 3s ease-in-out infinite;
+    animation-play-state: running;
+    margin-bottom: 50px;
+    margin-left: 625px;
+    padding: 3px 3px 3px 3px;
+}
+
+.spinner:hover {
+    animation-play-state: paused;
+}
+
+.spinner-II {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 7px;
+    translate: -50% -50%;
+    animation: spin 3s ease-in-out infinite;
+    animation-play-state: running;
+    margin-bottom: 150px;
+    margin-left: 625px;
+    padding: 3px 3px 3px 3px;
+}
+
+.spinner-II:hover {
+    animation-play-state: paused;
+}
+
+.the-arcade {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 150px;
+    background-image: url('Imgs/pexels-a-darmel-7862517.jpg');
+    background-size: cover;
+    justify-content: left;
+
+    img {
+        box-shadow: 4px 4px 10px black;
+        border-radius: 10px;
+    }
+
+    .arcade {
+        height: 250px;
+        width: 300px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 20px 20px 40px black;
+        animation: appear 2s linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+
+    h1 {
+        font-family: "Press Start 2P";
+    }
+}
+
+.pc-collection {
+    height: 700px;
+    width: 100%;
+    background-image: url('Imgs/pexels-ron-lach-7858743.jpg');
+    background-size: cover;
+    background-position: 70px;
+    margin-bottom: 150px;
+
+    .pc {
+        height: 270px;
+        width: 250px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 70px;
+        margin-right: 70px;
+        float: right;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 10px 10px 20px black;
+        animation: appear 2s linear;
+        animation-timing-function: ease-in;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+.warzone {
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 300px;
+    background-color: rgb(28, 28, 28);
+    padding-top: 30px;
+
+    img{
+        box-shadow: 7px 7px 15px black;
+        animation: appear 2s linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+
+    .warzone-description {
+        width: 300px;
+        animation: appear 2s linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+
+        img{
+            box-shadow: 7px 7px 15px black;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: small;
+            text-align: left;
+            font-weight: 500;
+            color: #bfe0f8;
+            text-shadow: 20px 20px 40px #bfe0f8, 5px 5px 5px #bfe0f8 inset;
+        }
+
+        .grid {
+            display: grid;
+            font-size: small;
+            text-align: left;
+            font-weight: 500;
+            color: #bfe0f8;
+            text-shadow: 10px 10px 20px #bfe0f8, 5px 5px 5px #bfe0f8 inset;
+        }
+    }
+}
+
+.new-releases{
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    padding: 40px;
+
+    .grid{
+        width: 85%;
+        position: relative;
+        top: 10%;
+        left: 10%;
+        animation: appear 2s linear;
+        animation-timing-function: ease-in;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+
+    .col{
+        margin-bottom: 30px;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: small;
+        text-align: left;
+    }
+
+    img{
+        height: 200px;
+        width: 170px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px black;
+        margin-bottom: 10px;
+    }
+
+    img:hover{
+        transform: translateY(-10px);
+        border: 2px white solid;
+        padding: 4px;
+        transition: 150ms ease;
+    }
+
+    h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    button{
+        background-color: white;
+        color: rgb(24, 24, 24);
+        padding: 5px;
+        font-size: small;
+        font-weight: 540;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        border: none;
+        width: 120px;
+        height: 35px;
+        padding-right: 20px;
+        margin-right: -25px;
+        margin-bottom: 50px;
+    }
+
+    button:hover{
+        transform: translateY(0px);
+        padding: 4px;
+        transition: 150ms ease; 
+    }
+
+    .btn2{
+        background-color: rgb(62, 62, 62);
+        color: white;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        border: none;
+        height: 35px;
+        width: 120px;
+        padding-left: 20px;
+    }
+}
+
+.slides{
+    height: 90vh;
+    width: 95%;
+    margin-left: 25px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 5px 15px rgb(22, 22, 22);
+    margin-bottom: 100px;
+    animation: appear 1.5s linear;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0;
+    display: none;
+}
+
+.slide{
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    inset: 0;
+    animation: slide-show 12s infinite;
+}
+
+.slide-2{
+    animation-delay: 4s;
+}
+
+.slide-3{
+    animation-delay: 8s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+/************************************ ANIMATION *******************************/
+@keyframes appear {
+    0% {
+        opacity: 0.6;
+        transform: translateY(100px);
+        scale: 0.7;
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        scale: 1;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    25% {
+        transform: rotateY(180deg);
+        border-radius: 50%;
+    }
+
+    50% {
+        transform: rotateY(360deg);
+        border-radius: 7px;
+    }
+
+    75% {
+        transform: rotateY(180deg);
+        border-radius: 50%;
+    }
+
+    100% {
+        transform: rotateY(0deg);
+        border-radius: 7px;
+    }
+}
+
+@keyframes xbox-slide{
+    0% {
+        opacity: 0.6;
+        transform: translatex(-300px);
+        scale: 0.7;
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0px);
+        scale: 1;
+    }
+}
+
+@keyframes slide-show{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%, 30%{
+        opacity: 1;
+        scale: 1.03;
+    }
+    50%{
+        opacity: 0;
+    }
+}
