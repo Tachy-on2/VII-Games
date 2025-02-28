@@ -381,7 +381,7 @@ h6 {
     display: flex;
     padding-top: 20px;
     margin-bottom: 150px;
-    background-image: url('Imgs/pexels-a-darmel-7862517.jpg');
+    background-image: url('pexels-a-darmel-7862517.jpg');
     background-size: cover;
     justify-content: left;
 
@@ -412,7 +412,7 @@ h6 {
 .pc-collection {
     height: 700px;
     width: 100%;
-    background-image: url('Imgs/pexels-ron-lach-7858743.jpg');
+    background-image: url('pexels-ron-lach-7858743.jpg');
     background-size: cover;
     background-position: 70px;
     margin-bottom: 150px;
